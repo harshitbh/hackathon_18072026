@@ -73,6 +73,13 @@ npm run preview
 ## Running Link
 
 - Local preview: http://10.133.253.105:8080/
+- Gemini share link: https://share.gemini.google/mMgwJKK3DEOy
+
+## Project Journey
+
+This project started from a practical problem: engineering teams often receive AI-generated code changes and test results in fragmented formats, making it hard to understand what actually changed and whether the fix is trustworthy. The idea behind CodePulse was to turn those scattered signals into a single visual operating view for code quality, patch confidence, and release readiness.
+
+The build process involved turning a Figma Make export into a working React + Vite interface, then shaping it into a dashboard that tells a narrative instead of just displaying numbers. The main challenge was balancing high-end visual design with a usable engineering workflow story so the app feels like a product, not just a mockup.
 
 ## Elevator Pitch
 
