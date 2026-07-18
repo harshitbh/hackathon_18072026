@@ -70,6 +70,10 @@ npm run preview
 
 - ViaSocket workflow: https://flow.viasocket.com/projects/73129/proj73129/workflow/scrij2dKoCoM/draft?flowhitid=flhj2dKoCoM-aa25aba7613a4146b7e16e159db3d0e6&stepId=funcBVuwDnyR&slugName=Update_pull_request
 
+## Augmentation Log
+
+- Process history: [augmentation_log.md](augmentation_log.md)
+
 ## Running Link
 
 - Local preview: http://10.133.253.105:8080/
