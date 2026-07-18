@@ -102,6 +102,7 @@ Once connected, the dashboard can show live automation and PR-update signals dir
 
 ## Running Link
 
+- Live demo: https://hackathon-18072026.vercel.app/
 - Local preview: http://10.133.253.105:8080/
 - Gemini share link: https://share.gemini.google/mMgwJKK3DEOy
 
