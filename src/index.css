@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  --color-surface-base: #0d0f14;
+  --color-surface-raised: #141720;
+  --color-surface-card: #1a1e2a;
+  --color-surface-elevated: #1f2435;
+  --color-surface-hover: #252a3a;
+  --color-border-subtle: #252a3a;
+  --color-border-dim: #2e3347;
+
+  --color-neon-emerald: #00e87a;
+  --color-neon-cyan: #00d4ff;
+  --color-neon-amber: #ffb020;
+  --color-neon-rose: #ff4d6a;
+
+  --color-text-primary: #e8eaf0;
+  --color-text-secondary: #8892a4;
+  --color-text-dim: #515b6e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0d0f14;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #2e3347;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3d4459;
+}
