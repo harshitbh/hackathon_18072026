@@ -74,6 +74,32 @@ npm run preview
 
 - Process history: [augmentation_log.md](augmentation_log.md)
 
+## Future Enhancement: ViaSocket Integration
+
+This project currently works as a frontend-only React + Vite dashboard. The next planned enhancement is to connect the existing ViaSocket workflow to the app through a webhook or API endpoint.
+
+### Proposed integration flow
+
+1. Create a lightweight backend endpoint such as `POST /api/viasocket/update`.
+2. Configure the ViaSocket workflow to send a JSON payload whenever a pull request update or patch event occurs.
+3. Add a `fetch()` call in the frontend to retrieve the latest workflow status.
+4. Map the returned data into the dashboard cards, logs, and status indicators.
+
+### Example payload
+
+```json
+{
+  "event": "pull_request",
+  "status": "SUCCESS",
+  "pr": 412,
+  "traceId": "tr_a4f2c91_042"
+}
+```
+
+### Expected outcome
+
+Once connected, the dashboard can show live automation and PR-update signals directly from the ViaSocket workflow instead of only static mock data.
+
 ## Running Link
 
 - Local preview: http://10.133.253.105:8080/
