@@ -66,6 +66,10 @@ To preview the production build:
 npm run preview
 ```
 
+## Workflow Link
+
+- ViaSocket workflow: https://flow.viasocket.com/projects/73129/proj73129/workflow/scrij2dKoCoM/draft?flowhitid=flhj2dKoCoM-aa25aba7613a4146b7e16e159db3d0e6&stepId=funcBVuwDnyR&slugName=Update_pull_request
+
 ## Elevator Pitch
 
 This app turns software quality monitoring into a visual, real-time command center for engineering teams. Instead of reading raw test reports and logs, teams can instantly see coverage regressions, understand the fix path, and track AI-generated patch confidence through a clean, high-signal dashboard.
